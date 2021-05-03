@@ -1,0 +1,76 @@
+body{
+font-family: cursive;
+font-style:italic;
+}
+
+a:link {
+color: teal;
+}
+
+a:visited {
+color:darkmagenta;
+}
+
+a:hover {
+color:blue;
+text-decoration: underline;
+}
+
+a:active {
+color:orange;
+}
+
+h1 {
+ 
+ color: #8a2be2;
+}
+
+* {
+   border: solid;
+}
+
+h2 {
+ color:tomato;
+}
+
+h3 {
+ color:teal;
+}
+
+
+.header {
+display: flex;
+background-color: black;
+border-color: white;
+
+}
+
+.menu {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+border-color: white;
+background-image: url("background.jpg");
+}
+
+.origami {
+display: flex;
+background-image: linear-gradient(to right,black,grey,white,grey,black);
+border-color: white;
+flex-wrap: wrap;
+}
+
+.footer {
+display: flex;
+background-color: black;
+border-color: white;
+}
+
+.info {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+background-color: black;
+color: white
+
+}
